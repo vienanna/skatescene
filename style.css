@@ -1,0 +1,1245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+h1,
+h2,
+img,
+p {
+    width: 75%;
+    margin: 0 auto
+}
+
+h1 {
+    font-family: Dosis, sans-serif;
+    font-size: 30px;
+    color: #838282;
+    text-align: center;
+    padding-top: 10%
+}
+
+h2 {
+    font-family: Sniglet, cursive;
+    font-size: 20px;
+    color: #838282;
+    margin-bottom: 2%
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #838282;
+    font-size: 12px;
+    line-height: 20px
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 3px 0 #e2e2e2;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+#logo-burger {
+    display: flex;
+    align-items: center
+}
+
+#logo img {
+    width: 35%;
+    height: 100%;
+    padding-top: 2%
+}
+
+#logo,
+#main-nav a {
+    color: #838282;
+    text-decoration: none
+}
+
+#main-nav {
+    display: flex;
+    margin-right: .5em;
+    list-style: none
+}
+
+#main-nav a {
+    display: block;
+    margin-left: 4em;
+    font-size: 1em;
+    line-height: 1em;
+    font-family: Dosis, sans-serif;
+    color: #838282
+}
+
+#main-nav a:hover {
+    color: #ee8434
+}
+
+a:active {
+    color: #ee8434
+}
+
+#logo-burger a.active {
+    border-bottom: 3px solid orange
+}
+
+.hidden {
+    display: none
+}
+
+#speciela {
+    color: #ec9a46
+}
+
+video {
+    width: 100%
+}
+
+.sticky {
+    background-image: url(../images/haender.jpg);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.bokse {
+    background-color: #f4f2f2;
+    border-radius: 20px;
+    width: 75%;
+    margin: 10% auto;
+    box-shadow: 5px 7px 5px #e2e2e2;
+    padding: 5%
+}
+
+#adresse {
+    margin-bottom: 15%
+}
+
+#kontaktinfo p {
+    margin-left: 8%;
+    padding: 5% 0 0 0
+}
+
+.flexbokse {
+    display: flex
+}
+
+.ikon {
+    width: 35%;
+    height: 100%
+}
+
+#pin1 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 15%
+}
+
+#pin2 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 41%
+}
+
+#pin3 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 67%
+}
+
+#dagplejerne {
+    background-color: #e8634c
+}
+
+#dagplejerne h1,
+#dagplejerne h2,
+#dagplejerne p {
+    color: #a21c04
+}
+
+#dagplejerne h2 {
+    padding-top: 5%
+}
+
+#marianne p {
+    padding-bottom: 20%
+}
+
+#dagplejerne img {
+    margin: 10% 12.5% 2% 12.5%;
+    border-radius: 10%;
+    box-shadow: 5px 7px 5px #c73c24
+}
+
+.wave {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.curve {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+#lag_1,
+#lag_2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0
+}
+
+.curve path {
+    fill: #fff
+}
+
+.curve1,
+.curve2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.curve1 path {
+    fill: #f8d836
+}
+
+.vikon {
+    width: 25%;
+    height: 100%;
+    padding-top: 10%
+}
+
+span {
+    font-size: 12px;
+    font-family: Sniglet, cursive;
+    color: #838282
+}
+
+.vardier {
+    display: flex;
+    width: 75%;
+    margin: 0 auto
+}
+
+#voresvardier {
+    top: -15px
+}
+
+.sticky p {
+    padding: 7% 0 7% 7%;
+    font-size: 10px
+}
+
+#spec {
+    padding: 7% 7% 7% 0
+}
+
+#sidste {
+    padding-bottom: 20%
+}
+
+#hverdagen {
+    background-color: #f8d836
+}
+
+#hverdagen h1 {
+    color: #de7a11
+}
+
+#hverdagen h2 {
+    color: #de7a11;
+    padding-top: 5%;
+    padding-bottom: 1%
+}
+
+#hverdagen p {
+    color: #de7a11
+}
+
+.hverdagsbilleder {
+    border-radius: 10%;
+    position: absolute;
+    margin-top: 5%;
+    box-shadow: 5px 7px 5px #f2bf2c
+}
+
+.raekkefoelge {
+    margin: 0 auto;
+    width: 75%;
+    padding: 0
+}
+
+#arrow {
+    position: relative;
+    left: 100%;
+    width: 10%
+}
+
+#arrow2 {
+    position: relative;
+    right: 12%;
+    width: 10%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: FlipH
+}
+
+#arrow3 {
+    position: relative;
+    width: 7%;
+    left: 90%;
+    top: -40px
+}
+
+.skrift-sektion {
+    margin-top: -25%
+}
+
+#hentning h2 {
+    margin-top: 5%
+}
+
+#arrow4 {
+    position: relative;
+    width: 6%;
+    top: -30px;
+    left: 5%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: FlipH
+}
+
+#tog {
+    width: 75%;
+    border-radius: 10%;
+    box-shadow: 5px 7px 5px #f2bf2c;
+    display: block;
+    margin-bottom: 15%
+}
+
+#aktiviteter {
+    margin-top: 5%
+}
+
+#aktiviteter p {
+    margin-bottom: 5%
+}
+
+#slider-container {
+    margin-top: 73%;
+    display: flex
+}
+
+.slider-container {
+    padding-bottom: 15%
+}
+
+.mySlides {
+    height: 100%;
+    display: flex;
+    border-radius: 10%;
+    box-shadow: 5px 7px 5px #f2bf2c
+}
+
+.slide-arrow {
+    background-color: #f8d836;
+    color: #de7a11;
+    border: 0;
+    font-size: 220%
+}
+
+#button1 {
+    padding-left: 3%
+}
+
+#button2 {
+    padding-right: 3%
+}
+
+#mobil {
+    width: 40%;
+    padding-top: 7%;
+    height: 100%;
+    padding-right: 7%
+}
+
+#folgmed {
+    top: -15px
+}
+
+.folg {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 17%
+}
+
+#ftext {
+    padding-top: 5%;
+    font-size: 12px
+}
+
+.curve2 path {
+    fill: #9bbf51
+}
+
+#anmeldelser {
+    background-color: #9bbf51;
+    padding-bottom: 10%
+}
+
+#anmeldelse {
+    color: #738e30;
+    margin-bottom: 8%
+}
+
+.box {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 15%;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    color: #838282;
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 7px 5px #738e30
+}
+
+.sp1:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    border-radius: 0 0 13px 0;
+    right: 19px;
+    bottom: -19px
+}
+
+#praktiskbaggrund {
+    background-image: url(../images/haender.jpg);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.pbokse {
+    background-color: #f2b2a9;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 7px 5px #e2e2e2;
+    padding: 5% 0 5% 0;
+    margin-top: 10%
+}
+
+.pbokse h2,
+.pbokse p {
+    color: #d55843
+}
+
+.pbokse ul {
+    padding-left: 17%;
+    font-size: 18px
+}
+
+.pbokse ul li {
+    padding: 2% 0 2% 0
+}
+
+.pbokse#lyserod1 {
+    color: #d55843;
+    font-family: 'Open sans', sans-serif
+}
+
+#gul {
+    background-color: #f8d836
+}
+
+#gul h2,
+#gul p {
+    color: #d56d00
+}
+
+#gul li {
+    font-family: 'Open sans', sans-serif;
+    color: #d56d00
+}
+
+#gron {
+    background-color: #9bbf51;
+    transform: rotate(10deg);
+    margin-top: 15%;
+    margin-bottom: 15%
+}
+
+#gron h2,
+#gron p {
+    color: #738e39
+}
+
+#gron1 {
+    background-color: #9bbf51
+}
+
+#gron1 h2,
+#gron1 p {
+    color: #738e39
+}
+
+#rod {
+    background-color: #d55843;
+    transform: rotate(-5deg);
+    margin-top: 15%;
+    margin-bottom: 15%
+}
+
+#rod h2,
+#rod p {
+    color: #af1c08
+}
+
+#orange {
+    background-color: #ec9a46
+}
+
+#orange h2,
+#orange p {
+    color: #a55401
+}
+
+#orange li {
+    font-family: 'Open sans', sans-serif;
+    color: #a55401
+}
+
+#gul1 {
+    background-color: #f8d836;
+    transform: rotate(5deg);
+    margin-top: 15%;
+    margin-bottom: 15%
+}
+
+#gul1 h2,
+#gul1 p {
+    color: #d56d00
+}
+
+.pins {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 48%
+}
+
+.pinskaev {
+    width: 13%;
+    height: auto;
+    position: absolute;
+    left: 48%
+}
+
+#pin4 {
+    top: 3.7%
+}
+
+#pin5 {
+    top: 11.5%
+}
+
+#pin6 {
+    top: -8%
+}
+
+#pin7 {
+    top: 38.7%
+}
+
+#pin8 {
+    top: -9%
+}
+
+#pin9 {
+    top: 64%
+}
+
+#pin10 {
+    top: 76%
+}
+
+#pin11 {
+    top: -12%
+}
+
+footer {
+    background-color: #f4f2f2
+}
+
+footer p {
+    padding: 14% 0 7% 7%;
+    font-size: 12px
+}
+
+.fikon {
+    width: 25%;
+    height: 100%;
+    padding-top: 10%
+}
+
+#speci {
+    padding: 14% 7% 7% 0
+}
+
+#aaben {
+    padding-top: 11%;
+    margin-bottom: 5%
+}
+
+#map {
+    position: absolute;
+    width: 100%;
+    height: 50%
+}
+
+.marker {
+    background-image: url(../images/kortpin.png);
+    background-size: cover;
+    width: 30px;
+    height: 40px;
+    cursor: pointer
+}
+
+.mapboxgl-popup {
+    max-width: 200px
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif
+}
+
+@media all and (max-width:750px) {
+    header {
+        display: block
+    }
+
+    #logo-burger {
+        justify-content: space-between;
+        align-items: center
+    }
+
+    #logo-burger label {
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        color: #838282
+    }
+
+    #toggle:checked + #main-nav {
+        display: block
+    }
+
+    #main-nav {
+        display: none
+    }
+
+    #main-nav li {
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, .3);
+        border-bottom: 1px solid rgba(0, 0, 0, .1)
+    }
+
+    #main-nav a {
+        margin: 0;
+        font-size: 1.4em
+    }
+
+    #main-nav li:last-of-type {
+        border-bottom: none
+    }
+
+    #image-caurosel {
+        display: none
+    }
+
+    .pbokse li {
+        font-size: 12px
+    }
+}
+
+@media all and (min-width:1024px) {
+    h1 {
+        font-size: 45px;
+        padding-top: 5%
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 2%
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px
+    }
+
+    #logo img {
+        width: 30%;
+        height: 100%;
+        padding-top: 1%
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        white-space: nowrap
+    }
+
+    label {
+        display: none
+    }
+
+    #main-nav a {
+        font-size: 20px;
+        margin-left: 40px
+    }
+
+    #main-nav #speciela {
+        color: #ec9a46
+    }
+
+    #main-nav a.active {
+        border-bottom: 2px solid #ec9a46;
+        padding-bottom: 5%
+    }
+
+    #specielflex {
+        flex-direction: row-reverse
+    }
+
+    .ikon {
+        width: 30%
+    }
+
+    #kontaktinfo p {
+        padding-top: 0
+    }
+
+    h1#kover {
+        grid-area: over
+    }
+
+    section#telefon {
+        grid-area: tele
+    }
+
+    section#mail {
+        grid-area: mail
+    }
+
+    section#adresse {
+        grid-area: adre
+    }
+
+    #kontaktinfo {
+        display: grid;
+        grid-template-areas: 'over over over''tele mail adre';
+        grid-auto-columns: 1fr;
+        margin-bottom: 2%
+    }
+
+    #adresse {
+        margin-bottom: 10%
+    }
+
+    #kover {
+        padding-top: 0
+    }
+
+    #kontaktinfo p {
+        margin-top: 3%
+    }
+
+    #pin1 {
+        width: 3%;
+        left: 17%;
+        top: 25%
+    }
+
+    #pin2 {
+        width: 3%;
+        left: 50%;
+        top: 25%
+    }
+
+    #pin3 {
+        width: 3%;
+        left: 83%;
+        top: 25%
+    }
+
+    #anna-mette {
+        display: flex;
+        width: 75%;
+        margin: 5% auto
+    }
+
+    #annabilled {
+        height: 100%;
+        width: 50%
+    }
+
+    #annatekst p {
+        width: 100%;
+        padding-left: 12%;
+        font-size: 14px
+    }
+
+    #annatekst h2 {
+        padding-top: 0
+    }
+
+    #dagplejerne img {
+        margin: 0
+    }
+
+    #marianne {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 75%;
+        margin: 5% auto
+    }
+
+    #mariannebilled {
+        height: 100%;
+        width: 50%
+    }
+
+    #mariannetekst {
+        margin: auto 0
+    }
+
+    #mariannetekst p {
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 0;
+        padding-right: 12%
+    }
+
+    #mariannetekst h2 {
+        width: 100%;
+        padding-top: 0
+    }
+
+    .vardier {
+        width: 80%
+    }
+
+    span {
+        font-size: 25px;
+        font-family: Sniglet, cursive;
+        color: #838282
+    }
+
+    .sticky p {
+        padding: 7% 0 7% 7%;
+        font-size: 14px;
+        margin: 0 auto;
+        width: 100%
+    }
+
+    #voresvardier {
+        margin-bottom: 13%;
+        width: 100%;
+        top: -33px
+    }
+
+    #voresvardier span {
+        font-size: 20px
+    }
+
+    p#spec {
+        padding: 7% 0 7% 7%
+    }
+
+    #brik {
+        display: flex;
+        flex-direction: row-reverse
+    }
+
+    section#hest {
+        grid-area: hest
+    }
+
+    section#brik {
+        grid-area: brik
+    }
+
+    section#sidste {
+        grid-area: gulerod
+    }
+
+    #brikkerkopi,
+    #gulerod,
+    #hestikon {
+        width: 120px;
+        height: 120px
+    }
+
+    #vardiergrid {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 3%;
+        display: grid;
+        grid-template-areas: 'hest brik gulerod';
+        grid-auto-columns: 1fr
+    }
+
+    #hverdagen h2 {
+        padding-top: 2%
+    }
+
+    #hverdagen img {
+        margin-top: 3%
+    }
+
+    #arrow,
+    #arrow1,
+    #arrow2,
+    #arrow3,
+    #arrow4 {
+        display: none
+    }
+
+    section#udeliv {
+        grid-area: ude
+    }
+
+    img#kanin {
+        grid-area: kan
+    }
+
+    section#spisning {
+        grid-area: spisn
+    }
+
+    img#spis {
+        grid-area: spis
+    }
+
+    section#putning {
+        grid-area: put
+    }
+
+    section#indeleg {
+        grid-area: ind
+    }
+
+    section#hentning {
+        grid-area: hent
+    }
+
+    section#aktiviteter {
+        grid-area: akt
+    }
+
+    img#tog {
+        grid-area: tog
+    }
+
+    #hverdagengrid {
+        display: grid;
+        grid-template-areas: 'ude kan spisn''spis put ind''hent akt tog';
+        width: 90%;
+        margin: 0 auto
+    }
+
+    #kanin,
+    #spis,
+    #tog {
+        width: 25%;
+        margin: 5% auto
+    }
+
+    #aktiviteter,
+    #hentning,
+    #indeleg,
+    #putning,
+    #spisning,
+    #udeliv {
+        margin: 5% auto
+    }
+
+    #hentning h2 {
+        margin-top: 0
+    }
+
+    #slider-container {
+        display: none
+    }
+
+    #image-caurosel {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        bottom: 125px
+    }
+
+    #imgList img {
+        width: 35%;
+        border-radius: 20px;
+        margin: 1%;
+        box-shadow: 5px 7px 5px #f2bf2c
+    }
+
+    .scroll-arrow {
+        width: 10%;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        font-size: 34px;
+        transition: .2s;
+        color: #f2bf2c
+    }
+
+    .scroll-arrow:hover {
+        scroll-behavior: smooth
+    }
+
+    #imgList {
+        width: 75%;
+        scroll-behavior: smooth;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        text-align: center;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        transition: .2s
+    }
+
+    #imgList::-webkit-scrollbar {
+        display: none
+    }
+
+    #folgmed {
+        top: -33px
+    }
+
+    .folg {
+        width: 50%
+    }
+
+    #ftext {
+        margin: auto 0;
+        font-size: 16px;
+        line-height: 30px;
+        padding-right: 0
+    }
+
+    #mobil {
+        width: 25%;
+        padding-right: 0
+    }
+
+    .box {
+        width: 350px;
+        font-size: 14px;
+        line-height: 25px
+    }
+
+    div#box1 {
+        grid-area: b1
+    }
+
+    div#box2 {
+        grid-area: b2
+    }
+
+    div#box3 {
+        grid-area: b3
+    }
+
+    .anmeldelsergrid {
+        display: grid;
+        grid-template-areas: 'b1 b2 b3';
+        width: 90%;
+        margin: 0 auto;
+        grid-auto-columns: 1fr
+    }
+
+    footer p {
+        font-size: 14px
+    }
+
+    .fikon {
+        width: 20%;
+        height: 75%
+    }
+
+    section#ring {
+        grid-area: ring
+    }
+
+    section#skriv {
+        grid-area: skriv
+    }
+
+    section#besog {
+        grid-area: besog
+    }
+
+    #footergrid {
+        display: flex;
+        padding: 0 0 2% 5%;
+        margin: 0 auto
+    }
+
+    #skriv {
+        flex-direction: row-reverse
+    }
+
+    #skriv p {
+        padding-left: 8%
+    }
+
+    #praktiskbaggrund h1 {
+        margin-bottom: 5%
+    }
+
+    #lyserod {
+        white-space: nowrap;
+        height: 47%;
+        grid-area: aabningstider
+    }
+
+    #gul {
+        height: 91%;
+        width: 100%;
+        grid-area: ferie
+    }
+
+    #gron {
+        grid-area: sygdom
+    }
+
+    #gron1 {
+        position: relative;
+        bottom: 40%;
+        height: 63%;
+        grid-area: priser
+    }
+
+    #rod {
+        grid-area: pladser
+    }
+
+    #orange {
+        height: 75%;
+        width: 85%;
+        position: relative;
+        bottom: 5%;
+        grid-area: medbring
+    }
+
+    #lyserod1 {
+        width: 90%;
+        height: 60%;
+        position: relative;
+        right: 133%;
+        top: 15%;
+        grid-area: soerger
+    }
+
+    #gul1 {
+        position: relative;
+        bottom: 75%;
+        grid-area: tilsyn
+    }
+
+    #grid-opstilling {
+        display: grid;
+        grid-template-areas: 'aabningstider ferie sygdom''priser pladser medbring''tilsyn soerger 0';
+        margin: 0 auto;
+        padding: 0 2% 5% 0
+    }
+
+    #pin4 {
+        width: 2.9%;
+        top: 12.8%;
+        left: 18.5%
+    }
+
+    #pin5 {
+        width: 2.9%;
+        left: 53%;
+        top: 12%
+    }
+
+    #pin7 {
+        top: -4%
+    }
+
+    #pin8 {
+        top: -5%
+    }
+
+    #pin9 {
+        top: -6%
+    }
+
+    #pin10 {
+        top: -7%
+    }
+
+    #pin11 {
+        width: 10%;
+        position: absolute;
+        top: -6%
+    }
+}

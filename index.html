@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <meta name="description" content="Find everything you'll need to know about skateboarding.">
+    <title>Skatescene front page</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="docallisme_on_street/DOCALLISME%20ON%20STREET.ttf">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Quicksand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+     <header>
+      
+        <!-- Med inspiration fra Michelle -->
+        <section id="logo-burger">
+            <a id="logo" href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <img src="images/search-icon.png" alt="search icon" id="search-icon">
+            <label for="toggle">&#9776;</label>
+            
+        </section>
+        <nav>
+            <input type="checkbox" id="toggle" class="hidden">
+            <ul id="main-nav">
+               <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Skate Skills &#9660;</a>
+    <div class="dropdown-content">
+      <a href="skills.html">Get Started</a>
+      <a href="#">When You Have the Basics</a>
+      
+    </div>
+  </li>
+                <li><a href="#">Gear</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">The Community</a></li>
+            </ul>
+             
+        </nav>
+    </header>
+    
+    <main>
+       <div>
+        <video autoplay loop muted
+src="images/frontpage-1.mp4"></video>
+        </div>
+        
+     <div id="intro">
+         <p>Welcome to <b>Skatescene</b>, your resource for all things <b>skateboarding!</b><br>Pick up some <b>new skills</b>, find <b>the best skate spots</b>, and meet with other skateboarders.  </p>
+         <p>Check out our <b>news</b> updates below for the latest and greatest.</p>
+     </div>
+       
+       <section id="news-background">
+           <h2>News</h2>
+         <div class="image-caurosel">
+            <div class="scroll-arrow">
+                &#10094;
+            </div>
+            <div class="imgList">
+               
+               <img src="images/news-competition.png" alt="skateboard ramp texture" class="news">
+           
+               
+               <img src="images/news-where.png" alt="skateboard ramp texture" class="news">
+               
+                <img src="images/news-how-to-fall.png" alt="skateboard ramp texture" class="news">
+                
+                
+               
+            </div>
+            <div class="scroll-arrow" onclick="scrollRight()">
+                &#10095;
+            </div>
+        </div>
+       </section>
+        
+              <section id="insta">
+           <h2>share cuz we care</h2>
+         <div class="image-caurosel">
+            <div class="scroll-arrow" id="scroll-left">
+                &#10094;
+            </div>
+            <div class="imgList">
+               
+               <img src="images/insta-jonas.png" alt="insta post of a skater" class="news">
+           
+               
+               <img src="images/mai-insta.png" alt="insta post of a skater" class="news">
+               
+                 <img src="images/trine.png" alt="insta post of a skater" class="news">
+               
+            </div>
+             <div class="scroll-arrow" id="scroll-right" onclick="scrollRight()">
+                &#10095;
+            </div>
+        </div>
+                  <p>Use the hashtag <b>#skatescene</b> on Instagram to be<br>featured.</p>
+        
+       </section>
+        
+    </main>
+    
+    <footer>
+       <img src="images/footer-ramp.png" alt="texture of skateboard ramp">
+        
+           
+           <section class="contact">
+            <h4>Contact:</h4>
+            <p>+45 12 34 56 78<br>skatescene@gmail.com</p>
+        </section>
+        
+        <section class="socials">
+            <h4>Follow Us On:</h4>
+            
+            <img src="images/instagram.png" alt="instagram icon" class="icons">
+            <img src="images/snapchat.png" alt="snapchat icon" class="icons" id="snapchat">
+            <img src="images/facebook-icon.png" alt="facebook icon" class="icons" id="facebook">
+            
+        </section>
+        
+        <section class="about-us">
+            <h4>About Us</h4>
+            <h4>Job</h4>
+        </section>
+        
+    </footer>
+    <script>
+        var imgList = document.getElementsByClassName('imgList');
+        var scrollRight = document.getElementsByClassName('scroll-arrow');
+        var scrollLeft = document.getElementsByClassName('scroll-arrow');
+
+        scrollRight.addEventListener('click', (event) => {  
+            imgList.scrollBy(50, 0);
+        });
+
+    
+        scrollLeft.addEventListener('click', (event) => {
+            imgList.scrollBy(-50, 0);
+        });
+
+
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+    </script> 
+
+</body>
+</html>
